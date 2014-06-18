@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plotting Predictors Application</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Plotting Predictors Application">
+  <meta name="author" content="Effi P">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="http://slidifylibraries2.googlecode.com/git/inst/libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/js/slides" 
+    src="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Plotting Predictors Application</h1>
+    <h2>Get to Your Results FAST</h2>
+    <p>Effi P<br/>Data Science Specialisation Track</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h3><font color="#CD3278"><b>WHY</b></font> have a Plotting Predictors Application?</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Easily visualise predictors from the <b>Wage</b> data</li>
+<li>Understanding how the data looks &amp; how it interacts at a glance</li>
+<li>Quick access to a selection of the most popular plotting methods</li>
+<li>Switch easily between plot types and compare results</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h3><font color="#CD3278"><b>WHAT</b></font> is the Plotting Predictors Application?</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>A simple application that provides a number of the most popular predictor plots</li>
+<li>Works on the <b>Wage</b> dataset</li>
+<li>Offers a selection of 5 different plot types </li>
+<li>The plot types available are:
+
+<ul>
+<li><b>Feature Plot (Wage)</b>: Feature plot using age, education and jobcode against wage</li>
+<li><b>Jobclass (Age vs Wage)</b>: Plot of age vs wage coloured by jobclass.</li>
+<li><b>Smoothers (Age vs Wage)</b>: Plot of age vs wage coloured by education with linear smoother for each education class</li>
+<li><b>Boxplot (Wage vs Age)</b>: Boxplot of age vs wage showing with different colours the various wage ranges</li>
+<li><b>Density Plot (Wage)</b>: Density plot of wage vs education</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h3><font color="#CD3278"><b>HOW</b></font> does the Plotting Predictors Applications Work?</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The user selects the plot type from a drop-down list</li>
+<li>The code for the plot is generated</li>
+<li>The plot appears on the right hand side of the screen</li>
+<li>An example of the <b>Density Plot (Wage)</b> is shown below:</li>
+</ul>
+
+<p><img src="data:image/png;base64,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" alt="plot of chunk unnamed-chunk-1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <article data-timings="">
+    <blockquote>
+<center><font size=12><br><br><br><br>
+The Plotting Predictor Application Rocks!</font></center>
+<br>
+<center> <font size=10></nl></nl></nl>It Speeds Up Your Analysis and Gets you to Your Results<br><br><br></font></center>
+<center> <font color="#CD3278"><font size=16><b>FAST!!!</b></font></font></center>
+</blockquote>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='<font color="#CD3278"><b>WHY</b></font> have a Plotting Predictors Application?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='<font color="#CD3278"><b>WHAT</b></font> is the Plotting Predictors Application?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='<font color="#CD3278"><b>HOW</b></font> does the Plotting Predictors Applications Work?'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title=''>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="http://slidifylibraries2.googlecode.com/git/inst/libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
